@@ -1,0 +1,122 @@
+/* RESET */
+*{
+    margin:0%; 
+   padding: 0%;
+   box-sizing: border-box;
+}
+/* CONFIGURACION BODY Y HTML */
+html, body{
+   height: 100%;
+   width: 100%;
+}
+
+body{
+   background-image: url(https://cdn.pixabay.com/photo/2015/06/24/16/36/home-820389_1280.jpg);
+   background-repeat: no-repeat ;
+   background-size: 100% 120% ;
+}
+
+header{
+   background: rgb(63,94,251);
+   background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(217,84,111,0.9668242296918768) 100%);
+   color: white;
+   
+   /* height: 50px; */
+   display: flex;
+   flex-direction: column;
+   background-color: aliceblue;
+   position: absolute;
+   width: 100%;
+}
+
+header>div{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   border: 2px solid rgba(48, 10, 70, 0.232);
+}
+
+header>div div{
+   position: absolute;
+   left: 10px;
+   top: 5px;
+}
+
+.menu {
+   list-style: none;
+   display: flex;
+   color: rgb(255, 255, 255);
+   justify-content: flex-start;
+   gap: 150px;
+   border: 2px solid rgba(48, 10, 70, 0.232);
+   position: relative;
+}
+
+
+
+.submenu{
+   list-style: none;
+   position: absolute;
+
+}
+
+.menu>li{
+padding: 10px;
+}
+
+.submenu{
+   position: absolute;
+   visibility: hidden;
+   list-style: none;
+   top: 30px;
+}
+
+#mostrar:hover .submenu{
+   visibility: visible;
+}
+
+.submenu li:hover{
+    background-color: #3f5efb;
+}
+
+.main{
+   height: 110%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: rgba(29, 171, 24, 0.831);
+
+}
+
+
+.imagen{
+   background-image: url(./FUcmBZmX0AEbyS4.jpg);
+   background-repeat: no-repeat; 
+   height: 110%;
+   width: 100%;
+   border: 2px solid orange;
+}
+
+.icon {
+   display: inline-block;
+   width: 1rem;
+   height: 1rem;
+   stroke-width: 0;
+   stroke: currentColor;
+   fill: currentColor;
+ }
+
+.icon {
+   display: inline-block;
+   width: 1em;
+   height: 1em;
+   stroke-width: 0;
+   stroke: currentColor;
+   fill: currentColor;
+}
+
+a{
+   color: currentColor;
+   text-decoration: none;
+}

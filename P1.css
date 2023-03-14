@@ -1,0 +1,256 @@
+/* RESET */
+*{
+   margin:0%; 
+   padding: 0%;
+   box-sizing: border-box;
+}
+/* CONFIGURACION BODY Y HTML */
+
+html, body{
+   height: 100%;
+   width: 100%;
+}
+
+body{
+   background-image: url(https://cdn.pixabay.com/photo/2015/06/24/16/36/home-820389_1280.jpg);
+   background-repeat: repeat ;
+   background-size: 100% 100% ;
+   display: flex;
+   flex-direction: column;
+   background-attachment: fixed;
+
+}
+
+header{
+   background: rgb(63,94,251);
+   background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(217,84,111,0.9668242296918768) 100%);
+   color: white;
+   
+   /* height: 50px; */
+   display: flex;
+   flex-direction: column;
+   background-color: aliceblue;
+   position: absolute;
+   width: 100%;
+}
+
+header>div{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   border: 2px solid rgba(48, 10, 70, 0.232);
+}
+
+header>div div{
+   position: absolute;
+   left: 10px;
+   top: 5px;
+}
+
+.menu {
+   list-style: none;
+   display: flex;
+   color: rgb(255, 255, 255);
+   justify-content: flex-start;
+   gap: 150px;
+   border: 2px solid rgba(48, 10, 70, 0.232);
+   position: relative;
+}
+
+
+
+.submenu{
+   list-style: none;
+   position: absolute;
+
+}
+
+.menu>li{
+padding: 10px;
+}
+
+.submenu{
+   position: absolute;
+   visibility: hidden;
+   list-style: none;
+   top: 30px;
+}
+
+#mostrar:hover .submenu{
+   visibility: visible;
+}
+
+.submenu li:hover{
+    background-color: #3f5efb;
+}
+
+.main{
+   height: 110%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: rgba(29, 171, 24, 0.831);
+
+}
+
+
+.imagen{
+   background-image: url(./FUcmBZmX0AEbyS4.jpg);
+   background-repeat: no-repeat; 
+   height: 110%;
+   width: 100%;
+   border: 2px solid orange;
+}
+
+.icon {
+   display: inline-block;
+   width: 1rem;
+   height: 1rem;
+   stroke-width: 0;
+   stroke: currentColor;
+   fill: currentColor;
+ }
+
+.icon {
+   display: inline-block;
+   width: 1em;
+   height: 1em;
+   stroke-width: 0;
+   stroke: currentColor;
+   fill: currentColor;
+}
+
+#nosotros{
+    color: tomato;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    width: 30%;
+    height: 60%;
+}
+
+
+img{
+    background-repeat:no-repeat;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 30%;
+    height: 60%;
+}
+
+#spanol{
+    position: absolute;
+    border: 2px solid black;
+    background-color:rgba(240, 248, 255, 0.755);
+    top: 40%;
+    left: 42%;
+    width: 40%;
+    height: 40%;
+}
+
+#divs{
+    background-image: url('./home-820389_1280.jpg'); 
+    width: 500px; 
+    height: 500px; 
+    background-size: auto 50%; 
+    background-repeat: no-repeat; 
+}
+
+#lie1{
+   border: 3px solid black;
+   position:absolute;
+   top: 100%;
+   width: 100%;
+   height: 1%;
+}
+
+
+#servicios{
+    color: tomato;
+    position:absolute;
+    top: 104%;
+    left: 40%;
+    width: 50%;
+    height: 1%;
+}
+
+#cuadro1{
+    position: absolute;
+    border: 2px solid black;
+    background-color:rgba(240, 248, 255, 0.709);
+    top: 130%;
+    left: 5%;
+    width: 40%;
+    height: 40%;
+
+}
+
+#cuadro2{
+    position: absolute;
+    border: 2px solid black;
+    background-color:rgba(240, 248, 255, 0.77);
+    top: 130%;
+    left: 50%;
+    width: 40%;
+    height: 40%;
+
+}
+
+#lie2{
+    border: 3px solid black;
+    position:absolute;
+    top: 200%;
+    width: 100%;
+    height: 1%;
+ }
+ 
+#contac{
+    color: tomato;
+    position: absolute;
+    top: 207%;
+    left: 43%;
+    width: 30%;
+    height: 60%;
+}
+#formulario{
+    background-color: #4a4a4c84;
+    border: 2px solid rgba(255, 99, 71, 0.775);
+    position: absolute;
+    top: 220%;
+    left: 25%;
+    width: 60%;
+    height: 75%;
+}
+
+.inputs{
+    width: 487px;
+}
+
+#boton{
+position: absolute;
+left: 40%;
+width: 90px;
+height: 30px;
+border-radius: 60px;
+
+}
+
+
+#lie3{
+    border: 3px solid black;
+    position:absolute;
+    top: 300%;
+    width: 100%;
+    height: 1%;
+
+}
+
+a{
+   color: currentColor;
+   text-decoration: none;
+}
+
